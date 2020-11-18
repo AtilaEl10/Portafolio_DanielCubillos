@@ -1,4 +1,70 @@
 :root {
-    --color-info: 
-    --color-warning: F0C745  
+    --color-info: #2D2D75; 
+    --color-warning: #F0C745;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: #707070;
+}
+nav {
+    background-color: var(--color-info)
+}
+
+/* header */
+header{
+    background-image: url('../img/background.jpg')
+}
+.content {
+	margin:0px auto;
+	text-align:center;
+}
+ 
+.content img {
+    vertical-align:middle;
+    width: 300px;
+}
+h1 {
+    color: var(--color-warning);
+    font-size: 45px;
+    font-weight: 300;
+}
+h2 {
+    color: var(--color-warning);
+    font-size: 25px;
+}
+.click {
+    color: var(--color-warning);
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 760px) {
+    /* header */
+    h1 {
+        font-size: 35px;
+        text-align: center;
+        line-height: 35px;
+    }
+    h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    /* header */
+    .content img {
+        width: 200px;
+    }
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
 }
