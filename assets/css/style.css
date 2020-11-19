@@ -121,6 +121,27 @@ h5 {
 .card-text {
     font-size: 14px;
 }
+footer {
+    background-color: var(--color-dark);
+    height: 90px;
+}
+footer a, a:link, footer a:visited, footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+.contenido-footer {
+    margin: auto 0px;
+}
+.contenido-footer .rrss {
+vertical-align: middle;
+}
+.texto-footer {
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 0.6rem;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
 
 @media screen and (max-width: 760px) {
     /* header */
