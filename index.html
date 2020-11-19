@@ -29,7 +29,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
                 <div class="container">
                     <a class="navbar-brand" href="#inicio">
-                        <img src="assets/img/logo_white.png" width="45px" height="28px" alt="" loading="lazy">
+                        <img src="assets/img/logo-icon.svg" width="45px" height="28px" alt="" loading="lazy">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -40,7 +40,7 @@
                         <a class="nav-link" href="#informacion">Información <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="experiencia nav-item active">
-                            <a class="nav-link" href="#experiencia">Experiencia<span class="sr-only">(current)</span></a>
+                            <a class="nav-link d-md-none" href="#experiencia">Experiencia<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#portafolio">Portafolio</a>
@@ -124,21 +124,22 @@
                                             <p class="iconos-info habilidades font-weight-bold">Habilidades</p>
                                         </div>
                                         <div class="text-left ml-4">
-                                            <button type="button" class="font-weight-light btn btn-outline-light text-center mt-3 mx-2">Adobe Photoshop</button>
-                                            <button type="button" class="font-weight-light btn btn-outline-light text-center mt-3 mx-2">Adobe Illustrator</button>
-                                            <button type="button" class="font-weight-light btn btn-outline-light text-center mt-3 mx-2">Adobe InDesign</button>
-                                            <button type="button" class="font-weight-light btn btn-outline-light text-center mt-3 mx-2">Adobe AfterEffects</button>
-                                            <button type="button" class="font-weight-light btn btn-outline-warning text-center mt-3 mx-2">Office Word y Excel</button>
-                                            <button type="button" class="font-weight-light btn btn-outline-warning text-center mt-3 mx-2">Office Power Point</button>
-                                            <button type="button" class="font-weight-light btn btn-outline-info text-center mt-3 mx-2">html</button>
-                                            <button type="button" class="font-weight-light btn btn-outline-info text-center mt-3 mx-2">css</button>
-                                            <button type="button" class="font-weight-light btn btn-outline-info text-center mt-3 mx-2">Javascript</button>
-                                            <button type="button" class="font-weight-light btn btn-outline-danger text-center text-white mt-3 mx-2">Nivel de inglés medio</button>
+                                            <button type="button" class="font-weight-light btn btn-outline-light text-center mt-3 mx-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Nivel Medio">Adobe Photoshop</button>
+                                            <button type="button" class="font-weight-light btn btn-outline-light text-center mt-3 mx-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Nivel Avanzado">Adobe Illustrator</button>
+                                            <button type="button" class="font-weight-light btn btn-outline-light text-center mt-3 mx-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Nivel Avanzado">Adobe InDesign</button>
+                                            <button type="button" class="font-weight-light btn btn-outline-light text-center mt-3 mx-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Nivel Medio">Adobe AfterEffects</button>
+                                            <button type="button" class="font-weight-light btn btn-outline-warning text-center mt-3 mx-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Nivel Medio">Office Word y Excel</button>
+                                            <button type="button" class="font-weight-light btn btn-outline-warning text-center mt-3 mx-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Nivel Avanzado">Office Power Point</button>
+                                            <button type="button" class="font-weight-light btn btn-outline-info text-center mt-3 mx-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Nivel Básico">html</button>
+                                            <button type="button" class="font-weight-light btn btn-outline-info text-center mt-3 mx-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Nivel Básico">css</button>
+                                            <button type="button" class="font-weight-light btn btn-outline-info text-center mt-3 mx-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Nivel Básico">Javascript</button>
+                                            <button type="button" class="font-weight-light btn btn-outline-danger text-center text-white mt-3 mx-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Nivel Medio">Nivel de inglés medio</button>
                                         </div>
                                         <hr class="mt-4 mb-5">
                                     </div>
                                 </div>
                             </div>
+
                             <!--columna vacia-->
                             <div class="vacia col-sm-1">
                             </div>
@@ -186,7 +187,7 @@
                                     </div>
                                     <div class="container mt-5">
                                         <h4 class="font-weight-bold">DESARROLLO FRONTEND</h4>
-                                        <h5>Academia Desafio LATAM |  2012</h5>
+                                        <h5>Academia Desafio LATAM |  2020</h5>
                                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod recusandae, doloribus adipisci aliquid expedita voluptatibus consectetur numquam optio natus quos voluptatem qui odit explicabo officiis cumque vel impedit tempora modi?</p>
                                         <hr class="linea2 mt-4">
                                     </div>
@@ -207,6 +208,183 @@
                 </section>
 
                 <section id="portafolio">
+                    <div class="container personal">
+                        <h3 class="titulo-portafolio display-4 text-center iconos-info font-weight-bold pt-5">PORTAFOLIO</h3>
+                        <hr class="mt-4">
+                        <h4 class="text-center font-weight-light pt-3">DISEÑO WEB</h4>
+                        
+                        <!--incio carrusel Escritorio-->
+                        <div class="d-none d-md-block"> 
+                            <div class="container my-5 pb-5">
+                                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                    </ol>
+                            
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="d-block w-100" src="assets/img/slide-01.png" alt="Meet-and-coffee" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Haz click para direccionar a la página">
+                                                <h5 class="text-center pt-3">Meet & Coffee</h5>
+                                            </div>
+                                            <div class="col-4">
+                                                <img  class="d-block w-100" src="assets/img/slide-02.png" alt="iguana-page" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Haz click para direccionar a la página">
+                                                <h5 class="text-center pt-3">Iguana Page</h5>
+                                            </div>
+                                            <div class="col-4">
+                                                <img  class="d-block w-100" src="assets/img/slide-03.png" alt="suricata" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Haz click para direccionar a la página">
+                                                <h5 class="text-center pt-3">Suricata</h5>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        
+                                        <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="d-block w-100" src="assets/img/slide-04.png" alt="cuppon" data-toggle="tooltip" data-trigger="hover" data-placement="bottom" title="Haz click para direccionar a la página">
+                                                <h5 class="text-center pt-3">Cuppon</h5>
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="d-block w-100" src="assets/img/slide-05.png" alt="Olivia-ross" data-toggle="tooltip" data-trigger="hover" data-placement="bottom" title="Haz click para direccionar a la página">
+                                                <h5 class="text-center pt-3">Olivia Ross</h5>
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="d-block w-100" src="assets/img/slide-06.png" alt="ricomida" data-toggle="tooltip" data-trigger="hover" data-placement="bottom" title="Haz click para direccionar a la página">
+                                                <h5 class="text-center pt-3">Ricomida</h5>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--cierre carrusel Escritorio-->
+                        <!--incio carrusel Celulares-->
+                        <div class="d-md-none"> 
+                            <div class="container my-5 pb-5">
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                    </ol>
+                            
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <img class="d-block w-100" src="assets/img/slide-01.png" alt="Meet-and-coffee" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Haz click para direccionar a la página">
+                                                    <h5 class="text-center pt-3">Meet & Coffee</h5>
+                                                </div>
+                                                <div class="col-6">
+                                                    <img  class="d-block w-100" src="assets/img/slide-02.png" alt="iguana-page" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Haz click para direccionar a la página">
+                                                    <h5 class="text-center pt-3">Iguana Page</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <img  class="d-block w-100" src="assets/img/slide-03.png" alt="suricata" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="Haz click para direccionar a la página">
+                                                    <h5 class="text-center pt-3">Suricata</h5>
+                                                </div>
+                                                <div class="col-6">
+                                                    <img class="d-block w-100" src="assets/img/slide-04.png" alt="cuppon" data-toggle="tooltip" data-trigger="hover" data-placement="bottom" title="Haz click para direccionar a la página">
+                                                    <h5 class="text-center pt-3">Cuppon</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <img class="d-block w-100" src="assets/img/slide-05.png" alt="Olivia-ross" data-toggle="tooltip" data-trigger="hover" data-placement="bottom" title="Haz click para direccionar a la página">
+                                                    <h5 class="text-center pt-3">Olivia Ross</h5>
+                                                </div>
+                                                <div class="col-6">
+                                                    <img class="d-block w-100" src="assets/img/slide-06.png" alt="ricomida" data-toggle="tooltip" data-trigger="hover" data-placement="bottom" title="Haz click para direccionar a la página">
+                                                    <h5 class="text-center pt-3">Ricomida</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--cierre carrusel Celulares-->
+                        <hr>
+
+                        <h4 class="text-center font-weight-light pt-3">DISEÑO GRÁFICO</h4>
+                        <!--Tarjetas-->
+                        <div class="container">
+                            <div class="row pt-5">
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="card">
+                                        <img class="card-img-top px-3" src="assets/img/card-01.png" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Tatio, explorando Chile</h5>
+                                        <p class="card-text">Kit para niños enfocados en fomentar el estudio de la geología de nuestro país.</p>
+                                        <a href="https://www.behance.net/gallery/60321881/Tatio-Explorando-Chile" class="btn btn-outline-warning">Mas detalles</a>
+                                        </div>
+                                    </div>
+                                </div>  
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="card">
+                                        <img class="card-img-top px-3" src="assets/img/card-02.png" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Gráficas BASF</h5>
+                                        <p class="card-text">Diversos elementos gráficos diseñados para BASF Chile como afiches, camineros, avisos, etc.</p>
+                                        <a href="https://www.behance.net/gallery/102027431/Piezas-Graficas-BASF-Chile" class="btn btn-outline-warning">Mas detalles</a>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="card">
+                                        <img class="card-img-top px-3" src="assets/img/card-03.png" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Cambio Climático</h5>
+                                        <p class="card-text">Estudio infográfico e ilustrativo sobre el efecto del cambio climático en los mares.</p>
+                                        <a href="https://www.behance.net/gallery/60321711/Cambio-Climatico-Infografia" class="btn btn-outline-warning">Mas detalles</a>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="card">
+                                        <img class="card-img-top px-3" src="assets/img/card-04.png" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Calendarios BASF</h5>
+                                        <p class="card-text">Trabajos editoriales realizados para BASF Chile como calendarios y cuadernos.</p>
+                                        <a href="https://www.behance.net/gallery/102029023/Calendarios-BASF" class="btn btn-outline-warning">Mas detalles</a>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="card">
+                                        <img class="card-img-top px-3" src="assets/img/card-05.png" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Horror Cósmico</h5>
+                                        <p class="card-text">Serie de portadas de libros enfocados en la temático de terror de H.P. Lovecraft.</p>
+                                        <a href="https://www.behance.net/gallery/60321797/Horror-Cosmico-Lovecraft" class="btn btn-outline-warning">Mas detalles</a>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="card">
+                                        <img class="card-img-top px-3" src="assets/img/card-06.png" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Temores</h5>
+                                        <p class="card-text">Trabajo infográfico sobre un grupo de estudiantes y de los distintos temores que pueden tener.</p>
+                                        <a href="https://www.behance.net/gallery/60321375/Temores-Infografia" class="btn btn-outline-warning">Mas detalles</a>
+                                        </div>
+                                    </div>
+                                </div>  
+                                
+                            </div>
+                        </div>
+                    </div>
 
                 </section>
 
